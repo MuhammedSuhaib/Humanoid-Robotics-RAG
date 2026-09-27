@@ -75,7 +75,7 @@ export default function SigninPage() {
                   localStorage.setItem('better-auth-session', JSON.stringify(res.data));
 
                   // Redirect to documentation page after successful signin
-                  window.location.href = "/SpecKit-Plus/docs/module-01-robotic-nervous-system/intro";
+                  window.location.href = "/Humanoid-Robotics-RAG/docs/module-01-robotic-nervous-system/intro";
                 } catch (err) {
                   setError("Sign in failed. Please try again.");
                   setLoading(false);
