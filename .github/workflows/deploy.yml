@@ -28,7 +28,7 @@ jobs:
       - name: Install & Build Frontend
         run: |
           cd frontend
-          pnpm install
+          pnpm install --allow-build=core-js --allow-build=core-js-pure
           pnpm build
 
       - name: Deploy to GitHub Pages
