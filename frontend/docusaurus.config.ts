@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://Panaversity.github.io',
+  url: 'https://muhammedsuhaib.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/SpecKit-Plus/',
+  baseUrl: '/Humanoid-Robotics-RAG/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Panaversity', // Usually your GitHub org/user name.
-  projectName: 'embodied-intelligence-book', // Usually your repo name.
+  organizationName: 'MuhammedSuhaib', // Usually your GitHub org/user name.
+  projectName: 'Humanoid-Robotics-RAG', // Usually your repo name.
   deploymentBranch: 'gh-pages', // Branch to deploy to
 
   onBrokenLinks: 'warn',
