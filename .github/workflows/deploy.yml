@@ -28,9 +28,9 @@ jobs:
           version: 12.6.0
 
       - name: Install & Build Frontend
+        working-directory: frontend
         run: |
-          cd frontend
-          pnpm install --allow-build=core-js --allow-build=core-js-pure
+          pnpm install
           pnpm build
 
       - name: Deploy to GitHub Pages
