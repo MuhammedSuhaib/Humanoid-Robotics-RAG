@@ -99,7 +99,7 @@ export default function SignupPage() {
                   }
                 }
 
-                window.location.href = "/SpecKit-Plus/docs/module-01-robotic-nervous-system/intro";
+                window.location.href = "/Humanoid-Robotics-RAG/docs/module-01-robotic-nervous-system/intro";
               };
 
               return (
@@ -306,7 +306,7 @@ export default function SignupPage() {
             )}
           </BrowserOnly>
         </div>
-      </div>
-    </Layout>
-  );
-}
+       </div>
+     </Layout>
+   );
+ }
