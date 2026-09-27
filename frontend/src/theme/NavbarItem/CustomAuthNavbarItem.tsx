@@ -69,7 +69,7 @@ function AuthenticatedDropdown({ onSignOut }) {
           <li>
             <a
               className="dropdown__link"
-              href="/SpecKit-Plus/"
+              href="/Humanoid-Robotics-RAG/"
               style={{
                 color: '#00ff41',
                 border: 'none',
@@ -130,7 +130,7 @@ function UnauthenticatedActions() {
     <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
       <a
         className="navbar__link"
-        href="/SpecKit-Plus/signin"
+        href="/Humanoid-Robotics-RAG/signin"
         style={{
           color: '#00cc44',
           textDecoration: 'none',
@@ -153,7 +153,7 @@ function UnauthenticatedActions() {
       </a>
       <a
         className="navbar__link navbar__link--active"
-        href="/SpecKit-Plus/signup"
+        href="/Humanoid-Robotics-RAG/signup"
         style={{
           backgroundColor: '#00cc44',
           color: '#001a0d',
